@@ -1,0 +1,49 @@
+.display{
+    display:flex;
+    height: 400px;
+    border: solid black 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player{
+    height: 350px;
+    width: 40%;
+    border: solid black 1px;
+   
+}
+
+.cpu{
+    height: 350px;
+    width: 40%;
+    border: solid black 1px;
+   
+}
+.options{
+    display:flex;
+    height: 200px;
+    border: solid black 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score{
+    display:flex;
+    height: 200px;
+    border: solid black 2px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.ps{
+    height: 100%;
+    width: 50%;
+    border: solid black 1px;
+}
+.cs{
+    height: 100%;
+    width: 50%;
+    border: solid black 1px;
+}
