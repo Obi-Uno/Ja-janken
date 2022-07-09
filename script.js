@@ -1,3 +1,16 @@
+
+function tempAlert(msg,duration)
+{
+ var el = document.createElement("div");
+ el.setAttribute("style","position:absolute;top:0%;left:0%;background-color:peachpuff;","font-size:100px");
+ el.innerHTML = `<h1 style="font-size: 100px;">${msg}</h1>`;
+ setTimeout(function(){
+  el.parentNode.removeChild(el);
+ },duration);
+ document.body.appendChild(el);
+}
+tempAlert("choose options from the bottom to start the game",5000);
+
 let playerChoice =0;
 let cpuChoice =0;
 let cWin=0;
@@ -58,7 +71,7 @@ btn.forEach((player)=>{
         checkWin();
         console.log( "cpu :"+ cpuChoice );
         console.log( "player"+ playerChoice);
-        ps.textContent=`                      player score :  ${pWin}      `;
+        ps.textContent=`                      Player score :  ${pWin}      `;
         cs.textContent=`                      computer score :  ${cWin}      `;
         dis_play.innerHTML=`<img src="images/${pPhoto[i]}" style="width: 100%; height: 100%;" >` ;
         dis_cpu.innerHTML=`<img src="images/${cPhoto[cpuChoice-1]}" style="width: 100%; height: 100%;" >` ;

@@ -1,3 +1,5 @@
+.{background-color: palevioletred;
+}
 .display{
     display:flex;
     height: 400px;
@@ -5,12 +7,14 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: burlywood;
 }
 
 .player{
     height: 350px;
     width: 40%;
     border: solid black 1px;
+    background-color: white;
    
 }
 
@@ -18,7 +22,7 @@
     height: 350px;
     width: 40%;
     border: solid black 1px;
-   
+   background-color: white;
 }
 .options{
     display:flex;
@@ -27,6 +31,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(21, 78, 66, 0.795);
 }
 
 .score{
@@ -41,13 +46,17 @@
     height: 100%;
     width: 50%;
     border: solid black 1px;
+    background-color: grey;
 }
 .cs{
     height: 100%;
     width: 50%;
     border: solid black 1px;
+    background-color: grey;
 }
 .btn{
-height: 100px;
-
+height: 170px;
+width: 300px;
+font-size: 80px;
+background-color: powderblue;
 }
